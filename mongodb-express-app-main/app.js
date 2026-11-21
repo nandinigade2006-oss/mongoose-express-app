@@ -5,7 +5,7 @@ const app = express();
 const port = 7000;
 
 // MongoDB connection
-const mongoUrl = "mongodb://admin:admin123@localhost:27017";
+const mongoUrl = "mongodb+srv://nandinigade2006_db_user:fACiqcn9yzG8wHTR@cluster0.wl6buis.mongodb.net/";
 const databaseName = "library_db";
 
 const client = new MongoClient(mongoUrl);
